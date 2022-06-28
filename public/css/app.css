@@ -1,4 +1,14 @@
-body {
-  background-color: aqua;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row .card {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 16.6666666667%;
+  padding: 2em;
 }
 
